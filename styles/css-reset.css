@@ -1,0 +1,217 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: #000000;
+  background: #ffffff; /* background: transparent; */
+  -webkit-text-size-adjust: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-size: 100%;
+  outline: 0;
+  line-height: 1;
+}
+
+body {
+  font: inherit;
+  outline: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  background: transparent;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+header,
+menu,
+nav,
+section,
+footer {
+  display: block;
+  font: inherit;
+  background: transparent;
+  font-size: 100%;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+ul {
+  list-style: none;
+  font-size: 100%;
+  outline: 0;
+  background: transparent;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+a {
+  background-color: transparent;
+  font: inherit;
+  font-size: 100%;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+  font-weight: normal;
+  overflow-wrap: break-word;
+  outline: 0;
+  font: inherit;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+h2,
+h3,
+h4 {
+  font-weight: normal;
+  font-size: 100%;
+  overflow-wrap: break-word;
+  outline: 0;
+  vertical-align: baseline;
+  font: inherit;
+  background: transparent;
+}
+
+p {
+  overflow-wrap: break-word;
+  font: inherit;
+  background: transparent;
+  font-size: 100%;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+hr {
+  clear: both;
+  color: transparent;
+  height: 1px;
+  box-sizing: content-box;
+  background: transparent;
+  overflow: visible;
+}
+
+img {
+  border-style: none;
+  font: inherit;
+  vertical-align: baseline;
+  background: transparent;
+  font-size: 100%;
+  display: block;
+  max-width: 100%;
+  outline: 0;
+}
+
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+div,
+span,
+li,
+form,
+label,
+tr {
+  font: inherit;
+  background: transparent;
+  font-size: 100%;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+  font: inherit;
+  vertical-align: baseline;
+  background: transparent;
+  font-size: 100%;
+  outline: 0;
+}
+
+legend {
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  white-space: normal;
+  font: inherit;
+  background: transparent;
+  font-size: 100%;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+select,
+input {
+  line-height: 1;
+  font-family: inherit;
+  font-weight: inherit;
+  outline: 0;
+  vertical-align: middle;
+  font: inherit;
+  background: transparent;
+  font-size: 100%;
+}
+
+select {
+  text-transform: none;
+}
+
+input {
+  overflow: visible;
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+textarea {
+  background: transparent;
+  overflow: auto;
+  font: inherit;
+  outline: 0;
+  vertical-align: baseline;
+  line-height: 1;
+  font-size: 100%;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+button {
+  line-height: 1;
+  font-size: 100%;
+  font-family: inherit;
+  font-weight: inherit;
+  overflow: visible;
+  text-transform: none;
+  font: inherit;
+}
+
+button,
+[type="button"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+}
