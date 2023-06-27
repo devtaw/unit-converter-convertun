@@ -4,7 +4,7 @@
 
 **Objetivo:** O projeto consiste no desenvolvimento de uma one page website utilizando HTML, CSS e JS. O conteúdo da página é um "Conversor de Unidades de Medida" que converte comprimento (metros, polegadas e centímetros), massa (gramas, libras e quilogramas) e temperatura (Celsius, Fahrenheit e Kelvin).
 
-**Link da página:** https://devtaw.github.io/personal-presentation-taw/
+**Link da página:** https://devtaw.github.io/unit-converter-convertun/
 
 ## ➡️ Fonte utilizada no projeto:
 
