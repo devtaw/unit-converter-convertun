@@ -6,6 +6,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="styles/css-reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
     <link rel="shortcut icon" href="images/favicon.ico" type="image/convertun-icon" />
     <title>ConvertUn</title>
   </head>
@@ -13,13 +21,11 @@
   <!-- Aqui começa o body -->
   <body>
     <!--Aqui começa minha header-->
-    <header>
-      <div>
-        <img src="images/logo-convertun.png" alt="" />
-      </div>
+    <header class="header">
       <!--Aqui começa meu nav-->
-      <nav class="barra-navegacao">
-        <menu>
+      <nav class="container barra-navegacao">
+        <img src="images/logo-convertun-horizontal.svg" alt="logo" />
+        <menu class="menu">
           <li><a id="menuComprimento">Comprimento</a></li>
           <li><a id="menuPeso">Massa</a></li>
           <li><a id="menuTemperatura">Temperatura</a></li>
@@ -29,44 +35,43 @@
     </header>
     <!--Aqui termina minha header-->
     <!-- Aqui começa a main -->
-    <main>
-      <div id="div-conversor">
+    <main class="container conteudo-main">
+      <div class="container div-conversor">
         <form>
-          <fieldset>
-            <legend>Faça sua conversão:</legend>
+          <span>Faça sua conversão:</span>
 
-            <p class="texto-required">Campos marcados com * são obrigatórios.</p>
+          <p class="texto-required">Campos marcados com * são obrigatórios.</p>
 
-            <label for="categorias">Categorias*:</label>
-            <select id="categorias" name="categorias" required>
-              <option value="">Selecione a medida</option>
-              <option value="comprimento">Comprimento 📏</option>
-              <option value="peso">Massa 🏋️</option>
-              <option value="temperatura">Temperatura 🌡️</option>
-            </select>
+          <label for="categorias">Categorias*:</label>
+          <select id="categorias" name="categorias" required>
+            <option value="">Selecione a medida</option>
+            <option value="comprimento">Comprimento 📏</option>
+            <option value="peso">Massa 🏋️</option>
+            <option value="temperatura">Temperatura 🌡️</option>
+          </select>
 
-            <label for="unidadeDeMedidaDeOrigem">De*:</label>
-            <select id="unidadeDeMedidaDeOrigem" name="unidadeDeMedidaDeOrigem" required></select>
+          <label for="unidadeDeMedidaDeOrigem">De*:</label>
+          <select id="unidadeDeMedidaDeOrigem" name="unidadeDeMedidaDeOrigem" required></select>
 
-            <label for="unidadeDeMedidaDeSaida">Para*:</label>
-            <select id="unidadeDeMedidaDeSaida" name="unidadeDeMedidaDeSaida" required></select>
+          <label for="unidadeDeMedidaDeSaida">Para*:</label>
+          <select id="unidadeDeMedidaDeSaida" name="unidadeDeMedidaDeSaida" required></select>
 
-            <label for="valorQueSeraConvertido">Valor a ser convertido*:</label>
-            <input type="number" id="valorQueSeraConvertido" name="valorQueSeraConvertido" placeholder="Digite um valor" required />
+          <label for="valorQueSeraConvertido">Valor a ser convertido*:</label>
+          <input type="number" id="valorQueSeraConvertido" name="valorQueSeraConvertido" placeholder="Digite um valor" required />
 
-            <button type="button" id="botaoDeConverter">CONVERTA</button>
+          <button type="button" id="botaoDeConverter">CONVERTA</button>
 
-            <label for="resultadoNaTela">Resultado:</label>
-            <div id="resultadoNaTela" required></div>
-          </fieldset>
+          <label for="resultadoNaTela">Resultado:</label>
+          <div id="resultadoNaTela" required></div>
         </form>
       </div>
     </main>
     <!--Aqui termina minha main-->
     <!--Aqui começa meu footer-->
-    <footer>
+    <!-- Adicionei uma classe ao footer para poder estilizá-lo. -->
+    <footer class="conteudo-footer">
       <div>
-        <p>Desenvolvido com 💜 por Taw Simões.</p>
+        <p>Desenvolvido por Taw Simões.</p>
       </div>
     </footer>
     <!--Aqui termina meu footer-->
